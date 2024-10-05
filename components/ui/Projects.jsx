@@ -8,7 +8,7 @@ const Projects = () => {
         description: "A minimalistic portfolio project. Single page app built using React and hosted on vercel.",
         image: "/images/portfolio", 
         liveLink: "/", 
-        codeLink: "https://github.com/example", 
+        codeLink: "https://github.com/M0imaritim/portfolio-2", 
       },
       
     ];

@@ -9,21 +9,26 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "This is my minimalistic portfolio website",
+  title: "Langat Moimaritim | Full Stack Web Developer",
+  description: "Portfolio website of Langat Moimaritim, juniour full-stack developer specializing in Django for backend development and Reactjs for front-end",
+
+  openGraph: {
+    title: "Langat Moimaritim | Web Developer",
+    description: "Showcasing my web development projects and skills.",
+    url: "https://moimaritim.tech",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body className={`${jetbrainsMono.variable} text-slate-400`}>
-        {/* Main Layout Container */}
         <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4">
-          {/* Static Header Component */}
           <Header />
-          {/* Main Content Container */}
           <div className='pt-24 lg:w-1/2 lg:py-24'>
-            {children} {/* This will render the content of each page */}
+            {children}
           </div>
         </div>
       </body>
