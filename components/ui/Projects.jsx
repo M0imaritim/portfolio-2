@@ -6,7 +6,7 @@ const Projects = () => {
       {
         title: "Portfolio",
         description: "A minimalistic portfolio project. Single page app built using React and hosted on vercel.",
-        image: "/images/portfolio.png", 
+        image: "/images/portfolio", 
         liveLink: "/", 
         codeLink: "https://github.com/M0imaritim/portfolio-2", 
       },
@@ -29,15 +29,8 @@ const Projects = () => {
             </CardHeader>
               <CardContent>
                 <p className='text-slate-200 mb-4' >{project.description}</p>
-                
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  width={500} 
-                  height={300}                      
-                  className="w-full h-48 object-cover" 
-                />
-                
+                <img src={project.image} alt="Portfolio" />               
+                                
               </CardContent>
               <CardFooter className="flex justify-between">
                 <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
