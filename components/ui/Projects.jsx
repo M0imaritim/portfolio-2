@@ -30,16 +30,14 @@ const Projects = () => {
               <CardContent>
                 <p className='text-slate-200 mb-4' >{project.description}</p>
                 
-                {project.image && (
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    width={500} 
-                    height={300}                      
-                    className="w-full h-48 object-cover" 
-                  />
-                  )
-                }
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  width={500} 
+                  height={300}                      
+                  className="w-full h-48 object-cover" 
+                />
+                
               </CardContent>
               <CardFooter className="flex justify-between">
                 <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
