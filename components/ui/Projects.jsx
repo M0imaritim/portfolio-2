@@ -6,7 +6,7 @@ const Projects = () => {
       {
         title: "Portfolio",
         description: "A minimalistic portfolio project. Single page app built using React and hosted on vercel.",
-        image: "/images/portfolio", 
+        image: "/images/portfolio.png", 
         liveLink: "/", 
         codeLink: "https://github.com/M0imaritim/portfolio-2", 
       },
