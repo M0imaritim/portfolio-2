@@ -1,6 +1,7 @@
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/ui/Header";
+import IOT from "@/components/ui/IOT";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -23,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
+
       <body className={`${jetbrainsMono.variable} text-slate-400`}>
         <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4">
           <Header />
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
             {children}
           </div>
         </div>
+
       </body>
     </html>
   );

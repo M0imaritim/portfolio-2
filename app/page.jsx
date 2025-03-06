@@ -1,5 +1,6 @@
 import About from "@/components/ui/About";
 import Projects from "@/components/ui/Projects";
+import IoTSection from "@/components/ui/IOT";
 import Contact from "@/components/ui/Contact";
 
 export default function Home() {
@@ -7,7 +8,9 @@ export default function Home() {
     <div>
       <About />
       <Projects />
+      <IoTSection />
       <Contact />
     </div>
+
   );
 }
