@@ -1,7 +1,7 @@
+import { Analytics } from '@vercel/analytics/next';
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/ui/Header";
-import IOT from "@/components/ui/IOT";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -32,6 +32,7 @@ export default function RootLayout({ children }) {
             {children}
           </div>
         </div>
+        <Analytics />
 
       </body>
     </html>
