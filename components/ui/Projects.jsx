@@ -12,7 +12,7 @@ const Projects = () => {
     },
     {
       title: "Patient Management System",
-      description: "Currently buildind a web-based system for managing patient records, built with Django and Nextjs.",
+      description: "Currently building a web-based system for managing patient records, built with Django and Nextjs.",
       image: "/images/PMS.png",
       liveLink: "#",
       codeLink: "https://github.com/M0imaritim/patient-management-system",
