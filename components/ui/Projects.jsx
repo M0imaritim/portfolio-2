@@ -17,6 +17,14 @@ const Projects = () => {
       liveLink: "#",
       codeLink: "https://github.com/M0imaritim/patient-management-system",
     },
+    {
+
+      title: "Maze game",
+      description: "A real-time 3D maze exploration game built with C and SDL2, featuring raycasting-based rendering for a pseudo-3D experience.",
+      image: "/images/Maze1.png",
+      liveLink: "https://www.youtube.com/watch?v=xk7hwCbyz9s",
+      codeLink: "https://github.com/M0imaritim/Maze",
+    }
 
   ];
 
