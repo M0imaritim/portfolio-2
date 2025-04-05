@@ -26,6 +26,7 @@ export const metadata = {
       },
     ],
     type: "website",
+    site_name: "Langat Moimaritim",
   },
   twitter: {
     card: 'summary_large_image',
