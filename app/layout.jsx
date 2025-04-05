@@ -17,7 +17,22 @@ export const metadata = {
     title: "Langat Moimaritim | Software Developer",
     description: "Showcasing my software development projects and skills.",
     url: "https://langat-moimaritim.vercel.app/",
+    images: [
+      {
+        url: 'https://langat-moimaritim.vercel.app/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Langat Moimaritim',
+      },
+    ],
     type: "website",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Projects | Langat Moimaritim',
+    description: 'A showcase of web and IoT projects built by Langat Moimaritim.',
+    images: ['https://langat-moimaritim.vercel.app/og-image.png'],
+    creator: '@Moimaritim',
   },
 };
 
