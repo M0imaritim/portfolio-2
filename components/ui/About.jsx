@@ -18,10 +18,10 @@ const About = () => {
 
             <div>
                 <p className='mb-4'>
-                    I'm a passionate software engineer with strong skills in Python, C, and JavaScript. I enjoy coding, solving problems, and building meaningful projects.
+                    I&apos;m a passionate software engineer with strong skills in Python, C, and JavaScript. I enjoy coding, solving problems, and building meaningful projects.
                 </p>
                 <p className='mb-4'>
-                    Outside of development, I love traveling and long-distance driving—it helps me recharge and think creatively. I'm currently focusing on fitness, and plan to join a boxing club and shooting range. I'm also exploring IoT technology, which I believe is the next frontier of innovation.
+                    Outside of development, I love traveling and long-distance driving—it helps me recharge and think creatively. I&apos;m currently focusing on fitness, and plan to join a boxing club and shooting range. I&apos;m also exploring IoT technology, which I believe is the next frontier of innovation.
                 </p>
             </div>
         </section>
