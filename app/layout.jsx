@@ -16,6 +16,7 @@ export const metadata = {
   openGraph: {
     title: "Langat Moimaritim | Software Developer",
     description: "Showcasing my software development projects and skills.",
+    siteName: "Langat Moimaritim Portfolio",
     url: "https://langat-moimaritim.vercel.app/",
     images: [
       {
@@ -26,7 +27,6 @@ export const metadata = {
       },
     ],
     type: "website",
-    site_name: "Langat Moimaritim",
   },
   twitter: {
     card: 'summary_large_image',
