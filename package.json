@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "postbuild": "node scripts/generate-sitemap.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -17,6 +18,7 @@
     "next": "14.2.14",
     "react": "^18",
     "react-dom": "^18",
+    "sitemap": "^8.0.0",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7"
   },

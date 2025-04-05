@@ -1,7 +1,6 @@
 "use client";
 
 import { usePathname } from 'next/navigation';
-import Link from 'next/link';
 import NavItem from './NavItem';
 
 const Header = () => {
@@ -23,10 +22,10 @@ const Header = () => {
 
         <nav className="nav hidden lg:block">
           <ul className="mt-16 w-max">
-            <NavItem href="#about" text="About" isActive={isActive('#about')} />
-            <NavItem href="#projects" text="Projects" isActive={isActive('#projects')} />
-            <NavItem href="#contact" text="Contact" isActive={isActive('#contact')} />
-            <NavItem href="#IOT" text="IoT" isActive={isActive('#IOT')} />
+            <NavItem href="about" text="About" isActive={isActive('about')} />
+            <NavItem href="projects" text="Projects" isActive={isActive('projects')} />
+            <NavItem href="iot" text="IoT" isActive={isActive('iot')} />
+            <NavItem href="contact" text="Contact" isActive={isActive('contact')} />
           </ul>
         </nav>
       </div>

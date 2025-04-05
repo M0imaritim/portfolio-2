@@ -1,7 +1,7 @@
-import About from "@/components/ui/About";
-import Projects from "@/components/ui/Projects";
-import IoTSection from "@/components/ui/IOT";
-import Contact from "@/components/ui/Contact";
+import About from "./about/page";
+import Projects from "./projects/page";
+import IoTSection from "./iot/page";
+import Contact from "./contact/page";
 
 export default function Home() {
   return (

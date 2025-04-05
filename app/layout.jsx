@@ -14,9 +14,9 @@ export const metadata = {
   description: "Portfolio website of Langat Moimaritim, juniour full-stack developer specializing in Django for backend development and Reactjs for front-end",
 
   openGraph: {
-    title: "Langat Moimaritim | Web Developer",
-    description: "Showcasing my web development projects and skills.",
-    url: "https://moimaritim.tech",
+    title: "Langat Moimaritim | Software Developer",
+    description: "Showcasing my software development projects and skills.",
+    url: "https://langat-moimaritim.vercel.app/",
     type: "website",
   },
 };
