@@ -24,6 +24,14 @@ const Projects = () => {
             image: "/images/Maze1.png",
             liveLink: "https://www.youtube.com/watch?v=xk7hwCbyz9s",
             codeLink: "https://github.com/M0imaritim/Maze",
+        },
+        {
+
+            title: "SwiftAf Errands",
+            description: "A tech-powered errand service platform for Nairobi. Built with Next.js, React, and Tailwind CSS, it features a responsive UI, animated GIF carousel, and smooth scroll interactions for a seamless user experience.",
+            image: "/images/swiftaf.png",
+            liveLink: "https://swiftaf-errands.vercel.app/",
+            codeLink: "https://github.com/M0imaritim/e-boy",
         }
 
     ];
@@ -44,7 +52,7 @@ const Projects = () => {
                         </CardHeader>
                         <CardContent>
                             <p className='text-slate-200 mb-4' >{project.description}</p>
-                            <img src={project.image} alt="Portfolio" />
+                            <Image src={project.image} alt="Portfolio" />
 
                         </CardContent>
                         <CardFooter className="flex justify-between">
