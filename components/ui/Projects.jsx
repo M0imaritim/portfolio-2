@@ -27,9 +27,9 @@ const Projects = () => {
         },
         {
 
-            title: "SwiftAf Errands",
+            title: "Runsafi Errands",
             description: "A tech-powered errand service platform for Nairobi. Built with Next.js, React, and Tailwind CSS, it features a responsive UI, animated GIF carousel, and smooth scroll interactions for a seamless user experience.",
-            image: "/images/swiftaf.png",
+            image: "/images/runsafi.png",
             liveLink: "https://swiftaf-errands.vercel.app/",
             codeLink: "https://github.com/M0imaritim/e-boy",
         }
