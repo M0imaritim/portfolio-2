@@ -11,13 +11,13 @@ const IoTSection = () => {
                     I am learning and working on Internet of Things (IoT), focusing on:
                 </p>
                 <ul className="text-left list-disc list-inside space-y-2 text-slate-200 dark:text-gray-300 p-4">
-                    <li>🛠️ <strong>Embedded Systems</strong> - Designing circuits and programming microcontrollers.</li>
-                    <li>📡 <strong>Sensor Integrations</strong> - Connecting and collecting data from sensors.</li>
-                    <li>☁️ <strong>IoT Cloud Platforms</strong> - Sending and analyzing data on the cloud.</li>
-                    <li>🤖 <strong>Automation & Control</strong> - Implementing smart systems.</li>
+                    <li><strong>Embedded Systems</strong> - Designing circuits and programming microcontrollers.</li>
+                    <li><strong>Sensor Integrations</strong> - Connecting and collecting data from sensors.</li>
+                    <li><strong>IoT Cloud Platforms</strong> - Sending and analyzing data on the cloud.</li>
+                    <li><strong>Automation & Control</strong> - Implementing smart systems.</li>
                 </ul>
                 <div className="mt-6 px-4">
-                    <h3 className="text-lg font-semibold text-slate-200">📂 IoT Projects</h3>
+                    <h3 className="text-lg font-semibold text-slate-200">IoT Projects</h3>
                     <ul className="mt-2 space-y-2">
                         <li>
                             🔗 <a href="https://github.com/M0imaritim/SmartHomeSystems" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
