@@ -30,9 +30,30 @@ const Projects = () => {
             title: "Runsafi Errands",
             description: "A tech-powered errand service platform for Nairobi. Built with Next.js, React, and Tailwind CSS, it features a responsive UI, animated GIF carousel, and smooth scroll interactions for a seamless user experience.",
             image: "/images/runsafi.png",
-            liveLink: "https://swiftaf-errands.vercel.app/",
+            liveLink: "#",
             codeLink: "https://github.com/M0imaritim/e-boy",
-        }
+        },
+        {
+            title: "The Star Kenya",
+            description: "A leading Kenyan news platform delivering breaking news, politics, business, and entertainment coverage. I am part of the development team responsible for building and maintaining this high-traffic digital news site.",
+            image: "/images/the-star.png",
+            liveLink: "https://the-star.co.ke",
+            codeLink: "#",
+        },
+        {
+            title: "Mpasho",
+            description: "Kenya&apos;s premier celebrity gossip and entertainment news website. I am part of the team developing and maintaining this popular culture and lifestyle platform, known for its vibrant content and engaged readership.",
+            image: "/images/mpasho.png",
+            liveLink: "https://mpasho.co.ke",
+            codeLink: "#",
+        },
+        {
+            title: "Radio Jambo",
+            description: "The official digital platform for Radio Jambo, one of Kenya&apos;s most popular Swahili radio stations. I am part of the team behind the web presence, supporting live streaming, news, and entertainment features for their online audience.",
+            image: "/images/radiojambo.png",
+            liveLink: "https://radio-jambo.co.ke",
+            codeLink: "#",
+        },
 
     ];
 
